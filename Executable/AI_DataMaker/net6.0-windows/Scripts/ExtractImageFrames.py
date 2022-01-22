@@ -17,7 +17,7 @@ def extractFrames(videoPath, outPath):
     try:
         # creating a folder named ExtractImageFrames
         if not Path.exists(outPath):
-            outPath.mkdir()
+            outPath.mkdir(parents=True, exist_ok=True)
 
     # if not created then raise error
     except OSError:
@@ -57,7 +57,7 @@ def extractFramesFromVideoElement(cam, outPath):
 if __name__ == "__main__":
     try:
         inputFile = str(sys.argv[1])
-        outputDir = Path(sys.argv[2]).joinpath('ExtractImageFrames')
+        outputDir = Path(sys.argv[2])
     except:
         inputFile = "D:\\StudyTime\\ProgrammingWorld\\CodeZone\\Development\\AI_ML\\Python\\Pressure Gauge Reader\\Data\\1 Training videos\data from videos\out2\\out2_train.mp4"
         outputDir = Path(sys.argv[0]).parent.joinpath('ExtractImageFrames')
