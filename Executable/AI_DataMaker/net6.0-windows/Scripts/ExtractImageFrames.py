@@ -4,7 +4,7 @@ import cv2
 from pathlib import Path
 
 
-def extractFrames(videoPath, outPath):
+def extractFrames(videoPath, outPath, prefix, fileNumberingLength):
     path = Path(videoPath)
     # print(path.parent.absolute())
 
@@ -23,10 +23,10 @@ def extractFrames(videoPath, outPath):
     except OSError:
         print('Error: Creating directory of data')
 
-    extractFramesFromVideoElement(cam, outPath)
+    extractFramesFromVideoElement(cam, outPath, prefix, fileNumberingLength)
 
 
-def extractFramesFromVideoElement(cam, outPath):
+def extractFramesFromVideoElement(cam, outPath, prefix, fileNumberingLength):
     # frame
     currentframe = 0
 
@@ -37,7 +37,7 @@ def extractFramesFromVideoElement(cam, outPath):
 
         if ret:
             # if video is still left continue creating images
-            name = str(outPath) + '/frame' + str(currentframe).rjust(4, '0') + '.jpg'
+            name = str(outPath) + '/' + prefix + str(currentframe).rjust(fileNumberingLength, '0') + '.jpg'
             print('Creating... ' + name)
 
             # writing the extracted images
@@ -58,8 +58,12 @@ if __name__ == "__main__":
     try:
         inputFile = str(sys.argv[1])
         outputDir = Path(sys.argv[2])
+        prefix = str(sys.argv[3])
+        fileNumberingLength = int(sys.argv[4])
     except:
         inputFile = "D:\\StudyTime\\ProgrammingWorld\\CodeZone\\Development\\AI_ML\\Python\\Pressure Gauge Reader\\Data\\1 Training videos\data from videos\out2\\out2_train.mp4"
         outputDir = Path(sys.argv[0]).parent.joinpath('ExtractImageFrames')
+        prefix = "frame"
+        fileNumberingLength = 4
 
-    extractFrames(inputFile, outputDir)
+    extractFrames(inputFile, outputDir, prefix, fileNumberingLength)
