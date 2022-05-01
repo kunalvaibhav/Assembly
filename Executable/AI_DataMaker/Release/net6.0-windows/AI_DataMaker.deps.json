@@ -9,6 +9,7 @@
       "AI_DataMaker/1.0.0": {
         "dependencies": {
           "ClosedXML": "0.95.4",
+          "DataGenerator": "1.0.0",
           "FrameWork.App": "1.0.0.0",
           "FrameWork.Global": "1.0.0.0",
           "FrameWork.Logic": "1.0.0.0",
@@ -746,6 +747,11 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "DataGenerator/1.0.0": {
+        "runtime": {
+          "DataGenerator.dll": {}
+        }
+      },
       "FrameWork.App/1.0.0.0": {
         "runtime": {
           "FrameWork.App.dll": {
@@ -1390,6 +1396,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "DataGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "FrameWork.App/1.0.0.0": {
       "type": "reference",

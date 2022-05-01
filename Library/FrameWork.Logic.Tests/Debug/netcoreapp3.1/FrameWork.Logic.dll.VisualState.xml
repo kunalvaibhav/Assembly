@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<VisualState xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ShowCheckBoxes="false">
-  <TopNode>[0-1000]D:\EducationZone\Repository\BitBucket\FrameWork\FrameWork.Logic.Tests\bin\Debug\netcoreapp3.1\FrameWork.Logic.dll</TopNode>
-  <SelectedNode>[0-1000]D:\EducationZone\Repository\BitBucket\FrameWork\FrameWork.Logic.Tests\bin\Debug\netcoreapp3.1\FrameWork.Logic.dll</SelectedNode>
-  <ExcludeCategories>false</ExcludeCategories>
-  <Nodes />
-</VisualState>
