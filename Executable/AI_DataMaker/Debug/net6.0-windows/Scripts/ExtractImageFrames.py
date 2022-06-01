@@ -4,7 +4,7 @@ import cv2
 from pathlib import Path
 
 
-def extractFrames(videoPath, outPath, prefix, fileNumberingLength):
+def extractFrames(videoPath, outPath, prefix, extn, fileNumberingLength):
     path = Path(videoPath)
     # print(path.parent.absolute())
 
@@ -23,10 +23,10 @@ def extractFrames(videoPath, outPath, prefix, fileNumberingLength):
     except OSError:
         print('Error: Creating directory of data')
 
-    extractFramesFromVideoElement(cam, outPath, prefix, fileNumberingLength)
+    extractFramesFromVideoElement(cam, outPath, prefix, extn, fileNumberingLength)
 
 
-def extractFramesFromVideoElement(cam, outPath, prefix, fileNumberingLength):
+def extractFramesFromVideoElement(cam, outPath, prefix, extn, fileNumberingLength):
     # frame
     currentframe = 0
 
@@ -37,7 +37,7 @@ def extractFramesFromVideoElement(cam, outPath, prefix, fileNumberingLength):
 
         if ret:
             # if video is still left continue creating images
-            name = str(outPath) + '/' + prefix + str(currentframe).rjust(fileNumberingLength, '0') + '.jpg'
+            name = str(outPath) + '/' + prefix + str(currentframe).rjust(fileNumberingLength, '0') + extn
             print('Creating... ' + name)
 
             # writing the extracted images
@@ -59,11 +59,13 @@ if __name__ == "__main__":
         inputFile = str(sys.argv[1])
         outputDir = Path(sys.argv[2])
         prefix = str(sys.argv[3])
-        fileNumberingLength = int(sys.argv[4])
+        extn = str(sys.argv[4])
+        fileNumberingLength = int(sys.argv[5])
     except:
         inputFile = "D:\\StudyTime\\ProgrammingWorld\\CodeZone\\Development\\AI_ML\\Python\\Pressure Gauge Reader\\Data\\1 Training videos\data from videos\out2\\out2_train.mp4"
         outputDir = Path(sys.argv[0]).parent.joinpath('ExtractImageFrames')
         prefix = "frame"
+        extn = ".png"
         fileNumberingLength = 4
 
-    extractFrames(inputFile, outputDir, prefix, fileNumberingLength)
+    extractFrames(inputFile, outputDir, prefix, extn, fileNumberingLength)
