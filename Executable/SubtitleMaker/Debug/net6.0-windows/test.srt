@@ -1,0 +1,232 @@
+1
+0 --> 2
+Dil Wali Gall Kar Le
+
+2
+2 --> 4
+Pyar Mere Naal Kar Le
+
+3
+4 --> 6
+Kaam Saare Kal Kar Le
+
+4
+6 --> 7
+Mere Yaar
+
+5
+7 --> 9
+Tu Meri Baanh Phad Le
+
+6
+9 --> 11
+Aankhein Yeh Aa Padh Le
+
+7
+11 --> 13
+Seene Se Dil Kadd Le
+
+8
+13 --> 14
+Mere Yaar
+
+9
+14 --> 17
+Kinna Sona Lagda Hai Tu Tu Tu
+
+10
+17 --> 19
+Lagdi Hoon Main Main Main
+
+11
+19 --> 20
+Teri Meri Jodi
+
+12
+20 --> 21
+Cute Lagde De
+
+13
+21 --> 23
+Kinna Sona Lagda Hai Tu
+
+14
+23 --> 24
+Lagdi Hoon Main
+
+15
+24 --> 25
+Teri Meri Jodi
+
+16
+25 --> 27
+Cute Lagde De De
+
+17
+27 --> 29
+Kinna Sona Lagda Hai
+
+18
+29 --> 32
+Nakhra Yeh Kudi Tera Sau Lakh Da
+
+19
+32 --> 34
+Uspe Croron Ka Yeh Mukhda
+
+20
+34 --> 36
+Main Toh Hoon Deewana Tera
+
+21
+36 --> 39
+Duniya Se Aaja Keh Doon Doon Doon
+
+22
+39 --> 42
+Dekh Dekh Tainu Ankh Nahi Thak Da
+
+23
+42 --> 45
+Tere Jaisa Koyi Mainu Nahi Jachda
+
+24
+45 --> 48
+Dil Mera Chahe Tujhe Kehne Ko
+
+25
+48 --> 50
+I Love You You You
+
+26
+50 --> 52
+Dil Wali Gall Kar Le
+
+27
+52 --> 54
+Pyar Mere Naal Kar Le
+
+28
+54 --> 56
+Kaam Saare Kal Kar Le
+
+29
+56 --> 57
+Mere Yaar
+
+30
+57 --> 60
+Kinna Sona Lagda Hai Tu Tu Tu
+
+31
+60 --> 62
+Lagdi Hoon Main Main Main
+
+32
+62 --> 63
+Teri Meri Jodi
+
+33
+63 --> 65
+Cute Lagde De De
+
+34
+65 --> 66
+The Drop
+
+35
+66 --> 66
+Break
+
+36
+66 --> 68
+Rabb Ne Banayi Jodi
+
+37
+68 --> 70
+Jaaye Na Jaaye Na Todi
+
+38
+70 --> 71
+Teri Main Hoon
+
+39
+71 --> 73
+Mera Bas Tu Tu Tu
+
+40
+73 --> 75
+Dil Da Thikana Tu Hai
+
+41
+75 --> 77
+Chain Da Bahana Tu Hai
+
+42
+77 --> 79
+Tu Hi Hai Jise
+
+43
+79 --> 81
+Main Chahun Hoon Hoon
+
+44
+81 --> 82
+Kaatil Adayein Teri
+
+45
+82 --> 84
+Hua Main Hua Main Crazy
+
+46
+84 --> 87
+Tere Bina Kaise Jiyun Un Un Un
+
+47
+87 --> 90
+Tu Hi Toh Hai Jaan Meri
+
+48
+90 --> 92
+Tu Hi Pehchan Meri
+
+49
+92 --> 94
+Inna Main Tujhe Chahun
+
+50
+94 --> 96
+Kinna Sona Lagdi Ae Tu
+
+51
+96 --> 99
+Haan Kinna Sona Lagda Hoon Main
+
+52
+99 --> 100
+Teri Meri Jodi
+
+53
+100 --> 102
+Cute Lagde De De
+
+54
+102 --> 105
+Kinna Sona Lagda Hai Tu Tu Tu
+
+55
+105 --> 107
+Lagdi Hoon Main Main Main
+
+56
+107 --> 108
+Teri Meri Jodi
+
+57
+108 --> 110
+Cute Lagde De De
+
+58
+110 --> 113
+Read Full Lyrics at iLyricsHub: https://www.rectangle.com/
+
