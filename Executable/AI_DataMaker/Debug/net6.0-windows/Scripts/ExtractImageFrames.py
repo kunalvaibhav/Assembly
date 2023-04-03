@@ -62,7 +62,7 @@ if __name__ == "__main__":
         extn = str(sys.argv[4])
         fileNumberingLength = int(sys.argv[5])
     except:
-        inputFile = "D:\\StudyTime\\ProgrammingWorld\\CodeZone\\Development\\AI_ML\\Python\\Pressure Gauge Reader\\Data\\1 Training videos\data from videos\out2\\out2_train.mp4"
+        inputFile = "E:\Dropshipping Products\Bidet Private Parts Flushing Device Baby Butt - Women's Flushing Private Parts - Bidets.mp4"
         outputDir = Path(sys.argv[0]).parent.joinpath('ExtractImageFrames')
         prefix = "frame"
         extn = ".png"

@@ -886,6 +886,14 @@
             "fileVersion": "1.8.20052.1"
           }
         }
+      },
+      "FrameWork.License/1.0.0.0": {
+        "runtime": {
+          "FrameWork.License.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1347,6 +1355,11 @@
       "sha512": ""
     },
     "BouncyCastle.Crypto/1.8.6.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrameWork.License/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
